@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "h3Header": "Lorem Ipsum",
+    "h4Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "span": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s.",
+    "imgSrc": "/pictures/slider1.jpeg",
+    "imgHeight": 248,
+    "imgWidth": 300
+  },
+  {
+    "id": "2",
+    "h3Header": "123Lorem Ipsum",
+    "h4Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "span": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s.",
+    "imgSrc": "/pictures/slider2.jpeg",
+    "imgHeight": 248,
+    "imgWidth": 300
+  },
+  {
+    "id": "3",
+    "h3Header": "Lorem Ipsum",
+    "h4Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "span": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy textever since the 1500s.",
+    "imgSrc": "/pictures/slider3.jpeg",
+    "imgHeight": 248,
+    "imgWidth": 300
+  }
+]

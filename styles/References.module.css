@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url(../public/fonts/Suissnord-aJR9.ttf);
+}
+
+.container {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 5rem;
+  border-top: 1px solid #d1d1d1;
+}
+
+.refContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.refContainer h1 {
+  font-family: "MyCustomFont";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 100%;
+  color: #d1d1d1;
+  margin-bottom: 5rem;
+  padding-left: 10px;
+  letter-spacing: 0.5rem;
+}
+.imgContainer {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.eachImage {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 958px) {
+  .refContainer h1 {
+    font-size: 30px;
+  }
+  .eachImage {
+    width: 40%;
+  }
+}

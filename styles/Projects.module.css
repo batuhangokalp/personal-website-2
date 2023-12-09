@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url(../public/fonts/Suissnord-aJR9.ttf);
+}
+
+.container {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 5rem;
+  border-top: 1px solid #d1d1d1;
+}
+.allProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.allProjectsContainer h1 {
+  font-family: "MyCustomFont";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 100%;
+  color: #d1d1d1;
+  margin-bottom: 5rem;
+  padding-left: 10px;
+  letter-spacing: 0.5rem;
+
+}
+.allProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin-bottom: 8rem;
+}
+.projects {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.eachProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 49%;
+  border: 1px solid #595959;
+  margin-top: 2rem;
+}
+.projectsContent {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 1.5rem;
+
+}
+.projectsContent h3 {
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100%;
+  color: #55a7d9;
+  margin-bottom: -0.2rem;
+}
+.projectsContent h4 {
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2rem;
+  text-transform: capitalize;
+  color: #a6a6a6;
+}
+.projectsContent span {
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #595959;
+}
+.imgProjects {
+  width: 50%;
+}
+.linkDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 2rem 0;
+}
+.behanceLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 216px;
+  height: 18px;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+.behanceLink:hover {
+  background: radial-gradient(
+    322.37% 4622.16% at -2.55% 13.16%,
+    #55a7d9 0%,
+    #f64cef 100%
+  );
+}
+.behanceLink a {
+  text-decoration: none;
+  text-align: center;
+}
+.behanceLink span {
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #0d0d0d;
+  text-align: center;
+}
+.detailContainer {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #d1d1d1;
+}
+.imgCont {
+  width: 70%;
+  height: 400px;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.contentDiv {
+  width: 70%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentDiv h3{
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 100%;
+  color: #55a7d9;
+  margin-bottom: -0.2rem;
+}
+.contentDiv h4{
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.8rem;
+  text-transform: capitalize;
+  color: #a6a6a6;
+}
+.contentDiv span{
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #595959;
+}
+@media only screen and (max-width: 958px) {
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .eachProject {
+    width: 100%;
+    border: none;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #595959;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .imgProjects {
+    width: 100%;
+  }
+  .projectsContent {
+    width: 100%;
+  }
+  .allProjectsContainer h1 {
+    font-size: 36px;
+  }
+  .imgCont {
+  height: 250px;
+  padding: 0;
+
+}
+.contentDiv {
+  align-items: flex-start;
+}
+.contentDiv h3{
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 100%;
+  color: #55a7d9;
+  margin-bottom: -0.2rem;
+}
+.contentDiv h4{
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8rem;
+  text-transform: capitalize;
+  color: #a6a6a6;
+}
+.contentDiv span{
+  font-family: "Wix Madefor Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  color: #595959;
+}
+}

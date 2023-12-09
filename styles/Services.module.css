@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "MyCustomFont";
+    src: url(../public/fonts/Suissnord-aJR9.ttf);
+  }
+  
+  .container {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 5rem;
+    border-top: 1px solid #d1d1d1;
+  }
+    
+  /* EXPERIENCES AND SKILLS */
+  
+  .allExperienceAndSkillsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+  }
+  .allExperienceAndSkillsContainer h1{
+    font-family: "MyCustomFont";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 100%;
+    color: #d1d1d1;
+    margin-bottom: 5rem;
+    padding-left: 10px;
+    letter-spacing: 0.5rem;
+  }
+  
+  .allExperienceAndSkillsContainer h3 {
+    font-family: "Wix Madefor Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #55a7d9;
+  }
+  .rowExp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    width: 85%;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .experiences {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .experiencesCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    background: #d1d1d1;
+    border: 1px solid #d9d9d9;
+    height: 230px;
+    padding: 2rem;
+    margin: 2rem 0;
+    gap: 3rem;
+  }
+  
+  .experiencesCard h4 {
+    font-family: "Wix Madefor Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3rem;
+    color: #f2f2f2;
+  }
+  .experiencesCard ul li {
+    font-family: "Wix Madefor Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.3rem;
+    color: #0d0d0d;
+  }
+  .experiencesCard span {
+    font-family: "Wix Madefor Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3rem;
+    color: #d9d9d9;
+    opacity: 0.75;
+  }
+  .iconRight {
+    display: flex;
+  }
+  .iconDown {
+    display: none;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    margin-top: -1rem;
+    list-style: none;
+  }
+  .iconHover {
+    color: #0d0d0d;
+  }
+  .iconHover:hover {
+    color: #55a7d9; 
+}
+  /* */
+
+
+  @media only screen and (max-width: 958px) {
+    .iconRight {
+      display: none;
+    }
+    .iconDown {
+      display: flex;
+    }
+    .allExperienceAndSkillsContainer {
+      align-items: center;
+    }
+    .allExperienceAndSkillsContainer h3 {
+      margin: auto;
+      padding: 2rem 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1298px) {
+    .experiences {
+      flex-direction: column;
+    }
+    .experiencesCard {
+      height: auto;
+      width: 60%;
+    }
+    .allExperienceAndSkillsContainer h1{
+      font-size: 36px;
+    }
+
+  }
+  
