@@ -37,10 +37,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_test",
-        "test",
+        "service_sbdfbak",
+        "template_4nmbyyt",
         form.current,
-        "test"
+        "K9GwK0jNH6Kg3yL5F"
       )
       .then(
         (result) => {
